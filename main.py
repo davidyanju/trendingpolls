@@ -10,15 +10,15 @@ import time
 import numpy as np
 # Tweepy login credentials for Twitter API
 #consumer key, consumer secret, access token, access secret.
-ckey="kI0kERGmUK4sxTmgcCntCCHmF"
-csecret="ULPUE5BTlm68qH253Ul2MhFGpfe6VLyIGNAoX1DfFLp7hCXa8m"
-atoken="725346482287685633-YmG7EsWnhYkJecqzSLNNI4cIm1hlh2m"
-asecret="Kn6Bb7oBITgyhUHWUlVk48AiMxXPOVjwjQssuV7LvjmWw"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 ###################################################################################
 # Plotly login credentials
-tls.set_credentials_file(username="davidyanju",api_key="qpqckqaumc",stream_ids=["ns0r5d781h","3zw49r7kbf","6duefewb8y","rez5fuf8md","t0rvu7bmoz"])
+tls.set_credentials_file(username="davidyanju",api_key="",stream_ids=["","","","",""])
 stream_ids = tls.get_credentials_file()['stream_ids']
 ####################################################################################
 # Function to analyse tweets and check if the tweets are positive or negative.
